@@ -1,10 +1,13 @@
 import React from "react";
+import FeaturedCharacters from "./FeaturedCharacters";
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to Attack on Titan Fan Page</h1>
-      <p>Explore the world of Attack on Titan with us!</p>
+      <h2>Welcome to Attack on Titan Fan Page</h2>
+      <FeaturedCharacters />
+      { /* Recent Episodes */ }
+
     </div>
   );
 }
