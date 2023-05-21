@@ -1,5 +1,6 @@
 import React from "react";
 import FeaturedCharacters from "./FeaturedCharacters";
+import "./styles/home.css";
 
 const Home = () => {
 
