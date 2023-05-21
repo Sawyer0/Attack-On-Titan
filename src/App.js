@@ -1,22 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavigationBar from './NavigationBar';
-import Home from './Home';
-import CharacterEncyclopedia from './CharacterEncyclopedia'
-import EpisodeGuide from './EpisodeGuide'
-import QuizGame from './QuizGame';
+import AppRoutes from "./Routes";
+import NavigationBar from "./NavigationBar";
 
 const App = () => {
   return (
-    <Router>
+    <div>
       <NavigationBar />
-      <Routes>
-        <Route exact path="/" Component={Home} />
-        <Route path="/characters" Component={CharacterEncyclopedia} />
-        <Route path="/episodes" Component={EpisodeGuide} />
-        <Route path="/quiz" Component={QuizGame} />
-      </Routes>
-    </Router>
+      <AppRoutes />
+    </div>
   );
 }
 
