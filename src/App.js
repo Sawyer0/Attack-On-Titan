@@ -1,11 +1,9 @@
 import React from 'react';
-import AppRoutes from "./Routes";
-import NavigationBar from "./NavigationBar";
+import AppRoutes from "./AppRoutes";
 
 const App = () => {
   return (
     <div>
-      <NavigationBar />
       <AppRoutes />
     </div>
   );
